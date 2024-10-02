@@ -13,4 +13,4 @@ A Kubernetes pod definition file named `nginx-pod-cka.yaml` is available. Your t
 * Add the created `nginx-pvc-cka` PVC to the existing `nginx-pod-cka` POD definition.
 * Mount the volume claimed by `nginx-pvc-cka` at the path `/var/www/html` within the `nginx-pod-cka` POD.
 * Add tolerations with the key `node-role.kubernetes.io/control-plane` set to `Exists` and effect `NoSchedule` to the `nginx-pod-cka` Pod
-* Ensure that the `peach-pod-cka05-str` POD is running and that the Persistent Volume (PV) is successfully `bound`.
+* Ensure that the `my-pod-cka` POD is running and that the Persistent Volume (PV) is successfully `bound`.
